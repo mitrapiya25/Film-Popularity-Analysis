@@ -60,6 +60,7 @@ end
 where actor_id = 172;
 
 ##5a
+show create table address;
 create table address_1(
 address_id smallint(5) AUTO_INCREMENT NOT NULL PRIMARY KEY UNIQUE,
 address varchar(50), 
